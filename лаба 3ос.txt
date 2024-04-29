@@ -1,0 +1,12 @@
+PS C:\Users\netan\OneDrive\Desktop\progect\public_html\md\slideshow> mkdir jp2
+
+
+    Каталог: C:\Users\netan\OneDrive\Desktop\progect\public_html\md\slideshow
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        29.04.2024     20:33                jp2
+
+
+PS C:\Users\netan\OneDrive\Desktop\progect\public_html\md\slideshow>  magick *.jpg -set filename:currentfile '%t' 'jp2/%[filename:currentfile].jp2'
